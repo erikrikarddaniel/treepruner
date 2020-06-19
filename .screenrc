@@ -1,0 +1,10 @@
+sessionname treepruner
+setenv ROOT $PWD
+# __INSERTPOINT__ This line allows a script to insert new configuration lines here.
+chdir $ROOT/testdata
+screen -t testdata
+chdir $ROOT/src
+screen -t src
+chdir $ROOT
+screen -t man
+screen -t root
